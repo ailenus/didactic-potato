@@ -1,5 +1,5 @@
 //
-//  ThirdViewController.swift
+//  CollectViewController.swift
 //  TD Wallet
 //
 //  Created by Biqing Qiu on 2/3/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class CollectViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

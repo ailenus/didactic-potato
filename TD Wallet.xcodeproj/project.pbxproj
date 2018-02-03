@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		980B69EC202627B900D470C5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B69EB202627B900D470C5 /* SecondViewController.swift */; };
+		980B69EE2026281000D470C5 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B69ED2026281000D470C5 /* ThirdViewController.swift */; };
+		980B69F220262A2900D470C5 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B69F120262A2900D470C5 /* FourthViewController.swift */; };
+		980B69F420262AC200D470C5 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B69F320262AC200D470C5 /* PayViewController.swift */; };
+		980B69F620262ACE00D470C5 /* CollectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B69F520262ACE00D470C5 /* CollectViewController.swift */; };
+		980B69F820262BC200D470C5 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B69F720262BC200D470C5 /* ScanViewController.swift */; };
+		980B69FA20262E0A00D470C5 /* PayDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B69F920262E0A00D470C5 /* PayDoneViewController.swift */; };
+		980B69FC202630E000D470C5 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B69FB202630E000D470C5 /* MeViewController.swift */; };
+		980B69FE2026322200D470C5 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B69FD2026322200D470C5 /* QRViewController.swift */; };
+		980B6A002026337500D470C5 /* CollectDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B69FF2026337500D470C5 /* CollectDoneViewController.swift */; };
 		E765E37C20255D670053AB7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765E37B20255D670053AB7B /* AppDelegate.swift */; };
 		E765E37E20255D670053AB7B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765E37D20255D670053AB7B /* FirstViewController.swift */; };
-		E765E38020255D670053AB7B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765E37F20255D670053AB7B /* SecondViewController.swift */; };
 		E765E38320255D670053AB7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E765E38120255D670053AB7B /* Main.storyboard */; };
 		E765E38520255D670053AB7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E765E38420255D670053AB7B /* Assets.xcassets */; };
 		E765E38820255D670053AB7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E765E38620255D670053AB7B /* LaunchScreen.storyboard */; };
@@ -35,10 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		980B69EB202627B900D470C5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		980B69ED2026281000D470C5 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		980B69F120262A2900D470C5 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		980B69F320262AC200D470C5 /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		980B69F520262ACE00D470C5 /* CollectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectViewController.swift; sourceTree = "<group>"; };
+		980B69F720262BC200D470C5 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		980B69F920262E0A00D470C5 /* PayDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayDoneViewController.swift; sourceTree = "<group>"; };
+		980B69FB202630E000D470C5 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		980B69FD2026322200D470C5 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		980B69FF2026337500D470C5 /* CollectDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectDoneViewController.swift; sourceTree = "<group>"; };
 		E765E37820255D670053AB7B /* TD Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TD Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E765E37B20255D670053AB7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E765E37D20255D670053AB7B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E765E37F20255D670053AB7B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E765E38220255D670053AB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E765E38420255D670053AB7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E765E38720255D670053AB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,8 +119,17 @@
 			children = (
 				E765E37B20255D670053AB7B /* AppDelegate.swift */,
 				E765E37D20255D670053AB7B /* FirstViewController.swift */,
-				E765E37F20255D670053AB7B /* SecondViewController.swift */,
+				980B69EB202627B900D470C5 /* SecondViewController.swift */,
+				980B69ED2026281000D470C5 /* ThirdViewController.swift */,
+				980B69F120262A2900D470C5 /* FourthViewController.swift */,
 				E765E38120255D670053AB7B /* Main.storyboard */,
+				980B69FF2026337500D470C5 /* CollectDoneViewController.swift */,
+				980B69FD2026322200D470C5 /* QRViewController.swift */,
+				980B69FB202630E000D470C5 /* MeViewController.swift */,
+				980B69F920262E0A00D470C5 /* PayDoneViewController.swift */,
+				980B69F720262BC200D470C5 /* ScanViewController.swift */,
+				980B69F320262AC200D470C5 /* PayViewController.swift */,
+				980B69F520262ACE00D470C5 /* CollectViewController.swift */,
 				E765E38420255D670053AB7B /* Assets.xcassets */,
 				E765E38620255D670053AB7B /* LaunchScreen.storyboard */,
 				E765E38920255D670053AB7B /* Info.plist */,
@@ -262,9 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E765E38020255D670053AB7B /* SecondViewController.swift in Sources */,
+				980B69FC202630E000D470C5 /* MeViewController.swift in Sources */,
 				E765E37C20255D670053AB7B /* AppDelegate.swift in Sources */,
+				980B69F620262ACE00D470C5 /* CollectViewController.swift in Sources */,
+				980B69FA20262E0A00D470C5 /* PayDoneViewController.swift in Sources */,
+				980B69F420262AC200D470C5 /* PayViewController.swift in Sources */,
+				980B6A002026337500D470C5 /* CollectDoneViewController.swift in Sources */,
+				980B69FE2026322200D470C5 /* QRViewController.swift in Sources */,
+				980B69EC202627B900D470C5 /* SecondViewController.swift in Sources */,
 				E765E37E20255D670053AB7B /* FirstViewController.swift in Sources */,
+				980B69F220262A2900D470C5 /* FourthViewController.swift in Sources */,
+				980B69EE2026281000D470C5 /* ThirdViewController.swift in Sources */,
+				980B69F820262BC200D470C5 /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
