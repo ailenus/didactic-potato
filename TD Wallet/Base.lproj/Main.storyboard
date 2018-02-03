@@ -47,15 +47,6 @@
                                     <segue destination="fiW-rM-h0f" kind="show" id="iS2-BY-y4D"/>
                                 </connections>
                             </button>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2eE-O8-umQ">
-                                <rect key="frame" x="1" y="569" width="375" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem systemItem="favorites" id="l6k-F7-SP0"/>
-                                    <tabBarItem systemItem="more" id="amQ-as-HU5"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
@@ -118,17 +109,6 @@
                     <view key="view" contentMode="scaleToFill" id="UEU-Eb-2zB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zgP-uu-ex5">
-                                <rect key="frame" x="0.0" y="569" width="375" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem systemItem="favorites" id="ucK-dn-BYD"/>
-                                    <tabBarItem systemItem="more" id="S8I-iR-sbq"/>
-                                </items>
-                            </tabBar>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="rvF-4F-V4l"/>
                     </view>
@@ -146,17 +126,6 @@
                     <view key="view" contentMode="scaleToFill" id="w3E-jI-pFZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Mn-xK-YQA">
-                                <rect key="frame" x="0.0" y="569" width="375" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem systemItem="favorites" id="79g-r2-Lb9"/>
-                                    <tabBarItem systemItem="more" id="idI-T9-XQh"/>
-                                </items>
-                            </tabBar>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="adu-gi-gqn"/>
                     </view>
@@ -165,7 +134,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FaQ-wh-9ta" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1188" y="2055"/>
+            <point key="canvasLocation" x="358" y="1290"/>
         </scene>
         <!--Item-->
         <scene sceneID="wg7-f3-ORb">
@@ -204,15 +173,6 @@
                                     <action selector="editContactInfo:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="htb-w5-hWx"/>
                                 </connections>
                             </button>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rsP-GB-RCt">
-                                <rect key="frame" x="0.0" y="569" width="375" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem systemItem="favorites" id="8hn-ng-rNx"/>
-                                    <tabBarItem systemItem="more" id="byH-nl-Tf0"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -322,6 +282,7 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="LIY-wq-SD7"/>
                         <segue destination="B3M-oR-0mW" kind="relationship" relationship="viewControllers" id="eH7-S2-5RY"/>
+                        <segue destination="8mt-jH-DCW" kind="relationship" relationship="viewControllers" id="jSt-bL-0oc"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
