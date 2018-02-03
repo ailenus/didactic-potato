@@ -1,5 +1,5 @@
 //
-//  CollectViewController.swift
+//  ControlDoneViewController.swift
 //  TD Wallet
 //
 //  Created by Biqing Qiu on 2/3/18.
@@ -8,10 +8,8 @@
 
 import UIKit
 
-class CollectViewController: UIViewController {
-    //MARK: Properties
-    
-    
+class ControlDoneViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
