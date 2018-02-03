@@ -8,8 +8,29 @@
 
 import UIKit
 
-class CollectDoneViewController: UIViewController {
+class CollectDoneViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
 
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var pickerView: UIPickerView!
+    
+    let accounts = ["Wallet", "Credit Card xxxx", "Checking Account xxxx", "Saving Account xxxx"]
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return accounts[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return accounts.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        label.text = accounts[row]
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
