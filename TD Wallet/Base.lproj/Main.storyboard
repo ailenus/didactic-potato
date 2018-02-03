@@ -102,7 +102,41 @@
             </objects>
             <point key="canvasLocation" x="1532" y="-977"/>
         </scene>
-        <!--Second-->
+        <!--Item-->
+        <scene sceneID="2jb-uo-10o">
+            <objects>
+                <viewController id="B3M-oR-0mW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UEU-Eb-2zB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="rvF-4F-V4l"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="po2-iM-e6e"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ntW-Li-lSm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1188" y="1290"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="dk7-Nf-Xdp">
+            <objects>
+                <viewController id="8mt-jH-DCW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w3E-jI-pFZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="adu-gi-gqn"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="m3N-r9-jMe"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FaQ-wh-9ta" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="358" y="1290"/>
+        </scene>
+        <!--Item-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="TD_Wallet" customModuleProvider="target" sceneMemberID="viewController">
@@ -149,7 +183,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="9SK-9L-zJf"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="contactSearch" destination="YEh-XJ-d6Y" id="58G-bz-ehQ"/>
                         <outlet property="editContactInfo" destination="bSi-Sm-oNl" id="nhb-7D-utD"/>
@@ -245,7 +280,9 @@
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="LIY-wq-SD7"/>
+                        <segue destination="B3M-oR-0mW" kind="relationship" relationship="viewControllers" id="eH7-S2-5RY"/>
+                        <segue destination="8mt-jH-DCW" kind="relationship" relationship="viewControllers" id="jSt-bL-0oc"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -255,9 +292,8 @@
     </scenes>
     <resources>
         <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="brT-CN-dj7"/>
+        <segue reference="LIY-wq-SD7"/>
     </inferredMetricsTieBreakers>
 </document>
