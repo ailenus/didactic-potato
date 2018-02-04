@@ -34,10 +34,14 @@ class APIManager: NSObject {
             } else {
                 let httpResponse = response as? HTTPURLResponse
                 status = (httpResponse?.statusCode)!
+                print(status)
                 print(httpResponse)
             }
         })
         dataTask.resume()
+        
+        sleep(4);
+        print(status)
         if status == 200{
             return 1
         }
