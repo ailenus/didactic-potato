@@ -43,7 +43,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0K-t9-ZVP">
-                                <rect key="frame" x="1" y="317" width="375" height="146"/>
+                                <rect key="frame" x="0.0" y="317" width="376" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="0.56718214897260277" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Collect">
@@ -820,7 +820,6 @@
         <!--Bill Pay-->
         <scene sceneID="dk7-Nf-Xdp">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FaQ-wh-9ta" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="8mt-jH-DCW" customClass="ThirdViewController" customModule="TD_Wallet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S0p-ZH-h9b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -937,6 +936,7 @@
                     <tabBarItem key="tabBarItem" title="Bill Pay" image="second" id="m3N-r9-jMe"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FaQ-wh-9ta" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="357.60000000000002" y="1289.5052473763119"/>
         </scene>
@@ -1064,7 +1064,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zun-KK-gFT">
                                 <rect key="frame" x="75" y="248" width="79" height="21"/>
@@ -1173,7 +1173,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gA-8B-qWJ">
                                 <rect key="frame" x="25" y="501" width="97" height="43"/>
@@ -1228,7 +1228,7 @@
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QOc-zh-tuH"/>
+        <segue reference="aQN-mP-lDB"/>
         <segue reference="jSt-bL-0oc"/>
         <segue reference="eH7-S2-5RY"/>
         <segue reference="V5y-LZ-bJ4"/>
