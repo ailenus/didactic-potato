@@ -11,7 +11,14 @@ import UIKit
 class CollectViewController: UIViewController {
     //MARK: Properties
     
+    @IBOutlet weak var label: UILabel!
     
+    @IBAction func buttonA(_ sender: UIButton) {
+        label.text = "Anakin Skywalker"
+    }
+    @IBAction func buttonC(_ sender: UIButton) {
+        label.text = "Chewbacca"
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
