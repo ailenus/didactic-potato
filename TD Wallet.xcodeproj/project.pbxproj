@@ -17,6 +17,11 @@
 		980B69FC202630E000D470C5 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B69FB202630E000D470C5 /* MeViewController.swift */; };
 		980B69FE2026322200D470C5 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B69FD2026322200D470C5 /* QRViewController.swift */; };
 		98CCCCD720265ACD00C2A102 /* CollectDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCCCD620265ACD00C2A102 /* CollectDoneViewController.swift */; };
+		98CCCCD92026676100C2A102 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCCCD82026676100C2A102 /* LoginViewController.swift */; };
+		98CCCCDB202668B200C2A102 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCCCDA202668B200C2A102 /* SignUpViewController.swift */; };
+		98CCCCDF2026767700C2A102 /* BIllsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCCCDE2026767700C2A102 /* BIllsViewController.swift */; };
+		98CCCCE12026794D00C2A102 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCCCE02026794D00C2A102 /* ReceiptViewController.swift */; };
+		98CCCCE32026832E00C2A102 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCCCE22026832E00C2A102 /* APIManager.swift */; };
 		E765E37C20255D670053AB7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765E37B20255D670053AB7B /* AppDelegate.swift */; };
 		E765E37E20255D670053AB7B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765E37D20255D670053AB7B /* FirstViewController.swift */; };
 		E765E38320255D670053AB7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E765E38120255D670053AB7B /* Main.storyboard */; };
@@ -54,6 +59,11 @@
 		980B69FB202630E000D470C5 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		980B69FD2026322200D470C5 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
 		98CCCCD620265ACD00C2A102 /* CollectDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectDoneViewController.swift; sourceTree = "<group>"; };
+		98CCCCD82026676100C2A102 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		98CCCCDA202668B200C2A102 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		98CCCCDE2026767700C2A102 /* BIllsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BIllsViewController.swift; sourceTree = "<group>"; };
+		98CCCCE02026794D00C2A102 /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
+		98CCCCE22026832E00C2A102 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		E765E37820255D670053AB7B /* TD Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TD Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E765E37B20255D670053AB7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E765E37D20255D670053AB7B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +133,7 @@
 				980B69ED2026281000D470C5 /* ThirdViewController.swift */,
 				980B69F120262A2900D470C5 /* FourthViewController.swift */,
 				E765E38120255D670053AB7B /* Main.storyboard */,
+				98CCCCDE2026767700C2A102 /* BIllsViewController.swift */,
 				980B69FD2026322200D470C5 /* QRViewController.swift */,
 				980B69FB202630E000D470C5 /* MeViewController.swift */,
 				980B69F920262E0A00D470C5 /* PayDoneViewController.swift */,
@@ -133,6 +144,10 @@
 				E765E38620255D670053AB7B /* LaunchScreen.storyboard */,
 				E765E38920255D670053AB7B /* Info.plist */,
 				98CCCCD620265ACD00C2A102 /* CollectDoneViewController.swift */,
+				98CCCCD82026676100C2A102 /* LoginViewController.swift */,
+				98CCCCDA202668B200C2A102 /* SignUpViewController.swift */,
+				98CCCCE02026794D00C2A102 /* ReceiptViewController.swift */,
+				98CCCCE22026832E00C2A102 /* APIManager.swift */,
 			);
 			path = "TD Wallet";
 			sourceTree = "<group>";
@@ -291,15 +306,20 @@
 			files = (
 				980B69FC202630E000D470C5 /* MeViewController.swift in Sources */,
 				E765E37C20255D670053AB7B /* AppDelegate.swift in Sources */,
+				98CCCCE12026794D00C2A102 /* ReceiptViewController.swift in Sources */,
 				980B69F620262ACE00D470C5 /* CollectViewController.swift in Sources */,
 				980B69FA20262E0A00D470C5 /* PayDoneViewController.swift in Sources */,
 				980B69F420262AC200D470C5 /* PayViewController.swift in Sources */,
 				98CCCCD720265ACD00C2A102 /* CollectDoneViewController.swift in Sources */,
 				980B69FE2026322200D470C5 /* QRViewController.swift in Sources */,
 				980B69EC202627B900D470C5 /* SecondViewController.swift in Sources */,
+				98CCCCDF2026767700C2A102 /* BIllsViewController.swift in Sources */,
+				98CCCCDB202668B200C2A102 /* SignUpViewController.swift in Sources */,
+				98CCCCE32026832E00C2A102 /* APIManager.swift in Sources */,
 				E765E37E20255D670053AB7B /* FirstViewController.swift in Sources */,
 				980B69F220262A2900D470C5 /* FourthViewController.swift in Sources */,
 				980B69EE2026281000D470C5 /* ThirdViewController.swift in Sources */,
+				98CCCCD92026676100C2A102 /* LoginViewController.swift in Sources */,
 				980B69F820262BC200D470C5 /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
